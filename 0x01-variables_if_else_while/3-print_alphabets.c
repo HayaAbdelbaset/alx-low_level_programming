@@ -1,27 +1,23 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
- * main - The third task
- * Return: Always 0
+ * main - Entry point
+ * Return: 0
  */
 
 int main(void)
+
 {
-	char C;
+	char lol;
 
-	char d;
+	for (lol = 'a'; lol <= 'z'; lol++)
+	putchar(lol);
 
-	C = 'a';
-	d = 'A';
-	while
-		(C <= 'z') {
-			putchar(C);
-			C++;
-		}
-	while
-		(d <= 'z') {
-			putchar (d);
-			d++;
-		}
+	for (lol = 'A'; lol <= 'z'; lol++)
+	putchar(lol);
 	putchar('\n');
+
 	return (0);
 }
